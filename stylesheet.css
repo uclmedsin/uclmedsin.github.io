@@ -10,3 +10,9 @@ body {
   background: url("https://lh5.googleusercontent.com/VP88emWqG2A1lpWfGhMC1X9X6u-Obmu2oWyYaZE42T4XxEMV3nE33bgeHgQ4vcGMzFz6Vw=w2512-h1060");
 } 
 
+img { 
+  width: 100%;
+  height: 25%;
+  border-radius: 10px;
+} 
+
