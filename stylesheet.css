@@ -5,6 +5,7 @@ body {
 
 ul li { 
   display: inline;
+  padding: 40px;
 } 
 
 h1{ 
