@@ -1,4 +1,4 @@
-<script src="coding_course/js-folder/jquery.js"></script> 
+<script src="coding_course/js-folder/jquery-2.1.4.min.js"></script> 
   <script> 
     $(function() {
     
