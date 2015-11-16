@@ -2,14 +2,6 @@ body {
   background-color: #78d9e1;
 } 
 
-#background { 
-  width: 60%;
-  height:25%;
-  background-color:rgba (0, 0, 0, 0.5);
-  border-radius: 10px;
-} 
-
-
 img { 
   width: 60%;
   height: 25%;
