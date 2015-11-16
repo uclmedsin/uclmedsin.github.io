@@ -6,6 +6,7 @@ body {
 ul li { 
   display: inline;
   padding: 40px;
+  margin: 20px;
 } 
 
 h1{ 
