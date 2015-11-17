@@ -11,7 +11,7 @@ header {
 ul li { 
   display: inline;
   margin: 0 auto;
-  padding-right: 151px;
+  padding-right: 191px;
 } 
 
 h1{ 
@@ -33,6 +33,6 @@ a {
 } 
 
 a:hover { 
-  color: #e00000;
+  color: white;
 }  
 
