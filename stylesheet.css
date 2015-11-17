@@ -3,6 +3,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 } 
 
+header { 
+  background-color: rgba(0,0,0,0.5);
+} 
+
+
 ul li { 
   display: inline;
   margin: 0 auto;
