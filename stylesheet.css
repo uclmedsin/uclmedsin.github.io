@@ -22,7 +22,10 @@ h3{
 
 a { 
   text-decoration: none;
-  font-size: 40px;
+  font-size: 35px;
 } 
 
+a:hover { 
+  color: #e0000;
+}  
 
