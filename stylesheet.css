@@ -17,13 +17,14 @@ body {
 } 
 
 .nav ul li a { 
-text-decoration: none;
-display: inline;
-padding: 50px;
+  text-decoration: none;
+  display: inline;
+  padding: 50px;
+  font-size: 15px;
 } 
 
 .nav ul li a:hover { 
-color:white;
+  color:white;
 } 
 
 .ucl_medsin h1{ 
