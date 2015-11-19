@@ -13,13 +13,13 @@ body {
 
 .nav ul li { 
   display: inline;
-  padding: 183px;
+  padding: 60px;
 } 
 
 .nav ul li a { 
 text-decoration: none;
 display: inline;
-padding: 183px;
+padding: 60px;
 } 
 
 .nav ul li a:hover { 
