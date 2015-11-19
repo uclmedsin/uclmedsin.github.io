@@ -16,7 +16,8 @@ header {
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
+	position: relative;
+	border-radius: 2px;
 } 
 
 .buttons a{
