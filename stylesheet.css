@@ -13,7 +13,7 @@ header {
 ul li { 
   display: inline;
   margin: 0 auto;
-  padding-right: 180px;
+  padding-right: 190px;
 } 
 
 h1{ 
@@ -40,6 +40,5 @@ a:hover {
 
 .rrssb-buttons clearfix { 
   padding-right: 400px;
-  float: left;
 } 
 
