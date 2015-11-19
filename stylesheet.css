@@ -11,13 +11,13 @@ header {
   height: 15%;
 } 
 
-.poop a { 
+a { 
 text-decoration: none;
 display: inline;
 padding: 183px;
 } 
 
-.poop a:hover { 
+a:hover { 
 color:white;
 } 
 
