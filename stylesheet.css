@@ -11,6 +11,11 @@ header {
   height: 15%;
 } 
 
+ul li { 
+  display: inline;
+  padding: 183px;
+} 
+
 a { 
 text-decoration: none;
 display: inline;
