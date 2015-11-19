@@ -9,13 +9,13 @@ header {
   padding: 2px;
 } 
 
-.poop ul li a { 
+ul li a { 
 padding: 183px;
 display:inline;
 text-decoration: none;
 } 
 
-.poop ul li a:hover { 
+ul li a:hover { 
 color:white;
 } 
 
