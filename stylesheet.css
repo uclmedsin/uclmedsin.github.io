@@ -10,53 +10,13 @@ header {
 } 
 
 .poop { 
-	color: rgba(255,255,255,1);
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;
-	border-radius: 10px;
-	display:inline;
+padding: 183px;
+display:inline;
 } 
 
-.poop a{
-	color: rgba(51,51,51,1);
-	text-decoration: none;
-	display: inline;
-}
-
-.poop span{
-	z-index: 2;	
-	display: inline;
-	position: absolute;
-	width: 100%;
-	height: 100%;	
-}
-
-.poop::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	background-color: rgba(255,255,255,0.5);
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
-	-webkit-transform: scale(0.5, 1);
-	transform: scale(0.5, 1);
-}
-.poop:hover::before{
-	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
-}
+.poop a:hover { 
+color:white;
+} 
 
 h1{ 
   font-size: 100px;
