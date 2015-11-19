@@ -5,10 +5,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheet.css" />
-    <link href="home.html">
-    <link href="about.html"> 
-    <link href="committee.html">
-    <link href="getinvolved.html">
     <title>Hands Off Our NHS!</title>
   </head>
   
@@ -16,10 +12,10 @@
   <header>
   <div class="poop">
     <ul>
-      <li><a href="home.html">Home</a></li> 
-      <li><a href="about.html">About</a></li> 
-      <li><a href="committee.html">Committee</a></li>
-      <li><a href="getinvolved.html">Get involved!</a></li>
+      <li><a href="#">Home</a></li> 
+      <li><a href="#">About</a></li> 
+      <li><a href="#">Committee</a></li>
+      <li><a href="#">Get involved!</a></li>
     </ul>
   </div>
   </header>
@@ -59,9 +55,14 @@
 <script src="../uclmedsin.github.io/jquery.js"></script>
 
 <script> 
- $('.rrssb-buttons').animate({
+ $('ul .rrssb-buttons').animate({
     marginLeft: '+=' + $(document).width()/5
   }, 3000, function() {
+  });
+  
+  $('.poop').animate({ 
+    marginLeft: '+=' + $(document).width()/5
+  }, 3000, function(){ 
   });
 </script> 
 
