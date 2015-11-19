@@ -15,10 +15,12 @@
   <body> 
   <header>
   <div class="poop">
-      <li><a href="home.html"><span>Home</span></a></li> 
-      <li><a href="about.html"><span>About</span></a></li> 
-      <li><a href="committee.html"><span>Committee</span></a></li>
-      <li><a href="getinvolved.html"><span>Get involved!</span></a></li>
+    <ul>
+      <li><a href="home.html">Home</a></li> 
+      <li><a href="about.html">About</a></li> 
+      <li><a href="committee.html">Committee</a></li>
+      <li><a href="getinvolved.html">Get involved!</a></li>
+    </ul>
   </div>
   </header>
   
@@ -61,6 +63,11 @@
     marginLeft: '+=' + $(document).width()/5
   }, 3000, function() {
   });
+  
+  $('.poop').animate({ 
+    marginLeft: '+=' + $(document).width()/5
+  }, 3000, function() { 
+  }); 
 </script> 
 
   </body> 
