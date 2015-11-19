@@ -21,6 +21,7 @@ body {
   display: inline;
   padding: 50px;
   font-size: 15px;
+  color: black;
 } 
 
 .nav ul li a:hover { 
