@@ -40,5 +40,6 @@ a:hover {
 
 .rrssb-buttons clearfix { 
   padding-right: 400px;
+  float: left;
 } 
 
