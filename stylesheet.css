@@ -9,9 +9,10 @@ header {
   padding: 2px;
 } 
 
-.poop { 
+.poop a { 
 padding: 183px;
 display:inline;
+text-decoration: none;
 } 
 
 .poop a:hover { 
