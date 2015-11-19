@@ -9,6 +9,10 @@ header {
   padding: 2px;
 } 
 
+.buttons ul li{ 
+	display: inline;
+	padding: 180px;
+	
 .buttons { 
   color: rgba(255,255,255,1);
 	-webkit-transition: all 0.5s;
@@ -17,7 +21,7 @@ header {
 	transition: all 0.5s;
 	border: 1px solid rgba(255,255,255,0.5);
 	position: relative;
-	border-radius: 2px;
+	border-radius: 10px;
 } 
 
 .buttons a{
@@ -56,11 +60,6 @@ header {
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 }
-
-.buttons ul li{ 
-	display: inline;
-	padding: 180px;
-} 
 
 h1{ 
   font-size: 100px;
