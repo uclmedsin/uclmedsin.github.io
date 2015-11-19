@@ -9,12 +9,11 @@ header {
   padding: 2px;
 } 
 
-
-ul li { 
-  display: inline;
-  margin: 0 auto;
-  padding-right: 180px;
+.buttons { 
 } 
+
+
+
 
 h1{ 
   font-size: 100px;
@@ -28,15 +27,6 @@ h3{
   font-size: 40px;
 } 
 
-a { 
-  text-decoration: none;
-  font-size: 15px;
-  color: black;
-} 
-
-a:hover { 
-  color: white;
-}  
 
 .rrssb-buttons { 
   width: 1000px;
