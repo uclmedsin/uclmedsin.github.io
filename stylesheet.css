@@ -9,12 +9,10 @@ header {
   padding: 2px;
 } 
 
-.buttons ul li{ 
+.poop ul li{ 
 	display: inline;
 	padding: 180px;
-	
-.buttons { 
-  color: rgba(255,255,255,1);
+	color: rgba(255,255,255,1);
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -24,13 +22,13 @@ header {
 	border-radius: 10px;
 } 
 
-.buttons a{
+.poop a{
 	color: rgba(51,51,51,1);
 	text-decoration: none;
 	display: block;
 }
 
-.buttons span{
+.poop span{
 	z-index: 2;	
 	display: block;
 	position: absolute;
@@ -38,7 +36,7 @@ header {
 	height: 100%;	
 }
 
-.buttons::before{
+.poop::before{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -55,7 +53,7 @@ header {
 	-webkit-transform: scale(0.5, 1);
 	transform: scale(0.5, 1);
 }
-.buttons:hover::before{
+.poop:hover::before{
 	opacity: 1;
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
