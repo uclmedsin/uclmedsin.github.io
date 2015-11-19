@@ -14,6 +14,7 @@ header {
 ul li { 
   display: inline;
   padding: 183px;
+  margin: 0 auto;
 } 
 
 a { 
