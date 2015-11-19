@@ -11,15 +11,12 @@ header {
 
 .poop ul li a { 
 padding: 183px;
-display:inline;
+display: inline-block;
 text-decoration: none;
 } 
 
 .poop ul li a:hover { 
 color:white;
-display:inline;
-text-decoration:none;
-padding:183px;
 } 
 
 h1{ 
