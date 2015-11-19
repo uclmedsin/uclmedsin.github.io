@@ -11,7 +11,7 @@ header {
   height: 15%;
 } 
 
-ul li { 
+.nav ul li { 
   display: inline;
   padding: 183px;
   margin: 0 auto;
