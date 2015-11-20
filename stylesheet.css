@@ -15,12 +15,11 @@ body {
   font-size: 40px;
 } 
 
-.ucl_medsin img { 
+img { 
   height: 50%;
   width:50%;
-  border-radius: 5px 5px 5px 5px;
   padding-right: 1000px;
-  border: 1px solid black;
+  border: 5px solid black;
 } 
 
 
