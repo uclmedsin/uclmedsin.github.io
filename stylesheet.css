@@ -23,8 +23,8 @@ img {
   border: 3px solid black;
   left: 50%;
   top: 50%;
-  margin-left: -250px; /*half the image width*/
-  margin-top: -250px; /*half the image height*/
+  margin-left: -400px; /*half the image width*/
+  margin-top: -200px; /*half the image height*/
   
 } 
 
