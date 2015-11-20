@@ -28,7 +28,7 @@ div.slide-slow {
   overflow:hidden;
 }
 div.slide-slow div.inner {
-  animation: slide-slow 100s;
+  animation: slide-slow 5s;
   margin-top:0%;
 }
 
