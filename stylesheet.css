@@ -24,7 +24,7 @@ img {
   left: 50%;
   top: 50%;
   margin-left: -150px; /*half the image width*/
-  margin-top: -75px; /*half the image height*/
+  margin-top: 10px; /*half the image height*/
   
 } 
 
