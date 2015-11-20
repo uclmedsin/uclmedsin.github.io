@@ -20,27 +20,9 @@ img {
   width:40%;
   border: 3px solid black;
   margin-top: -30px;
-  
 } 
 
-div.slide-slow {
-  width:50%;
-  overflow:hidden;
-}
-div.slide-slow div.inner {
-  animation: slide-slow 5s;
-  margin-top:0%;
-}
 
-@keyframes slide-slow {
-  from {
-    margin-right: 50%;
-  }
-
-  to {
-    margin-left: 50%;
-  }
-} 
 
 
 
