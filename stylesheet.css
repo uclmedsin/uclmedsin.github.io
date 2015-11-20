@@ -18,13 +18,13 @@ body {
 
 img { 
   position: absolute;
-  height: 100px;
-  width:50px;
+  height: 500px;
+  width:500px;
   border: 3px solid black;
   left: 50%;
   top: 50%;
-  margin-left: -25px; /*half the image width*/
-  margin-top: -50px; /*half the image height*/
+  margin-left: -250px; /*half the image width*/
+  margin-top: -250px; /*half the image height*/
   
 } 
 
