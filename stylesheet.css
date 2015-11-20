@@ -24,7 +24,7 @@ img {
 } 
 
 div.slide-slow {
-  width:100%;
+  width:50%;
   overflow:hidden;
 }
 div.slide-slow div.inner {
@@ -34,11 +34,11 @@ div.slide-slow div.inner {
 
 @keyframes slide-slow {
   from {
-    margin-right: 100%;
+    margin-right: 50%;
   }
 
   to {
-    margin-left: 0%;
+    margin-left: 50%;
   }
 } 
 
