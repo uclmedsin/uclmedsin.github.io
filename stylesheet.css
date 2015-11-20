@@ -6,8 +6,8 @@ body {
 .buttons { 
 	color: rgba(0, 0, 0, 0.5);
 	border: 1px solid rgba (255, 255, 255, 0.5);
-	height: 15%;
-	width: 30%;
+	height: 25%;
+	width: 100%;
 } 
 
 .nav1 {
