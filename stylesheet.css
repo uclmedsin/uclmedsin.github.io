@@ -15,6 +15,25 @@ body {
   font-size: 40px;
 } 
 
+div.slide-slow {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-slow div.inner {
+  animation: slide-slow 30s;
+  margin-top:0%;
+}
+
+@keyframes slide-slow {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+} 
+
 img { 
   height: 50%;
   width:40%;
