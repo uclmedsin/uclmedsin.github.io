@@ -3,11 +3,6 @@ body {
   font-family: 'Slabo 27px', serif;
 } 
 
-.buttons {
-	width: 15%;
-	height: 30%;
-}
-
 .nav1 {
 	color: rgba(255,255,255,1);
 	-webkit-transition: all 0.5s;
@@ -33,7 +28,7 @@ body {
 }
 
 .nav1::before{
-	content: '';
+	content: 'About Us';
 	position: absolute;
 	top: 0;
 	left: 0;
