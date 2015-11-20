@@ -19,6 +19,8 @@ img {
   height: 50%;
   width:40%;
   border: 5px solid black;
+  margin-top: -10px;
+  padding-right: 100px;
 } 
 
 
