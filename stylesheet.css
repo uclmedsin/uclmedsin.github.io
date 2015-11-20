@@ -28,7 +28,7 @@ body {
 }
 
 .nav1::before{
-	content: 'About Us';
+	content: 'Home';
 	position: absolute;
 	top: 0;
 	left: 0;
