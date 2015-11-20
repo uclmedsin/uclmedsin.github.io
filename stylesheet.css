@@ -13,85 +13,13 @@ body {
 	position: relative;	
 }
 
-.nav2 {
-	color: rgba(255,255,255,1);
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
-}
-
-.nav3 {
-	color: rgba(255,255,255,1);
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
-}
-
-.nav4 {
-	color: rgba(255,255,255,1);
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	border: 1px solid rgba(255,255,255,0.5);
-	position: relative;	
-}
-
 .nav1 a{
 	color: rgba(51,51,51,1);
 	text-decoration: none;
 	display: block;
 }
 
-.nav2 a{
-	color: rgba(51,51,51,1);
-	text-decoration: none;
-	display: block;
-}
-
-.nav3 a{
-	color: rgba(51,51,51,1);
-	text-decoration: none;
-	display: block;
-}
-
-.nav4 a{
-	color: rgba(51,51,51,1);
-	text-decoration: none;
-	display: block;
-}
-
 .nav1 span{
-	z-index: 2;	
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;	
-}
-
-.nav2 span{
-	z-index: 2;	
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;	
-}
-
-.nav3 span{
-	z-index: 2;	
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;	
-}
-
-.nav4 span{
 	z-index: 2;	
 	display: block;
 	position: absolute;
@@ -117,6 +45,36 @@ body {
 	transform: scale(0.5, 1);
 }
 
+.nav1:hover::before{
+	opacity: 1;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+
+.nav2 {
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	border: 1px solid rgba(255,255,255,0.5);
+	position: relative;	
+}
+
+.nav2 a{
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+	display: block;
+}
+
+.nav2 span{
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+
 .nav2::before{
 	content: '';
 	position: absolute;
@@ -133,6 +91,36 @@ body {
 	transition: all 0.4s;
 	-webkit-transform: scale(0.5, 1);
 	transform: scale(0.5, 1);
+}
+
+.nav2:hover::before{
+	opacity: 1;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+
+.nav3 {
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	border: 1px solid rgba(255,255,255,0.5);
+	position: relative;	
+}
+
+.nav3 a{
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+	display: block;
+}
+
+.nav3 span{
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
 }
 
 .nav3::before{
@@ -153,6 +141,36 @@ body {
 	transform: scale(0.5, 1);
 }
 
+.nav3:hover::before{
+	opacity: 1;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+
+.nav4 {
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	border: 1px solid rgba(255,255,255,0.5);
+	position: relative;	
+}
+
+.nav4 a{
+	color: rgba(51,51,51,1);
+	text-decoration: none;
+	display: block;
+}
+
+.nav4 span{
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
+}
+
 .nav4::before{
 	content: '';
 	position: absolute;
@@ -169,24 +187,6 @@ body {
 	transition: all 0.4s;
 	-webkit-transform: scale(0.5, 1);
 	transform: scale(0.5, 1);
-}
-
-.nav1:hover::before{
-	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
-}
-
-.nav2:hover::before{
-	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
-}
-
-.nav3:hover::before{
-	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
 }
 
 .nav4:hover::before{
